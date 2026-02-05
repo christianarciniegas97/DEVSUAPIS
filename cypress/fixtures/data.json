@@ -1,0 +1,11 @@
+{
+  "userRegistered": {
+    "name": "ChristianQAautomation",
+    "password": "QA1234"
+  },
+
+  "nonExistentUser": {
+    "name" : "TESTQAAUTOMATIONCHRISTIAN",
+    "password": "QA123QA"
+  }
+}
