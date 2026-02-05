@@ -1,0 +1,23 @@
+Conclusions:
+
+    The automation framework was designed using a clear separation of responsibilities
+    to improve readability, maintainability, and scalability.
+
+    API service methods were isolated from test logic to ensure reusability and clean
+    test specifications.
+
+    Test data was externalized using fixtures and helper utilities to support
+    data-driven testing and avoid hardcoded values.
+
+    Request payloads and API responses were logged at test level to capture both
+    inputs and outputs as execution evidence, ensuring transparency for reviewers
+    without relying solely on assertions.
+
+    Mochawesome was selected as the reporting tool to generate clear and shareable
+    HTML execution reports.
+
+    The login API returns the authentication token as a plain string rather than a JSON
+    object, so token validation was performed by parsing the response body accordingly.
+
+    The solution prioritizes clarity, reliability, and realistic validation of API
+    behavior while avoiding unnecessary complexity.
